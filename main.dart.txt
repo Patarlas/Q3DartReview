@@ -31,7 +31,9 @@ void describeWeather(double celsius) {
   if (celsius <= 25.0) {
     description = 'Warm and pleasant';
     activity = 'Great weather for outdoor activities!';
+//return
   }
+
  
   else {
     description = 'Extremely hot';
@@ -39,4 +41,5 @@ void describeWeather(double celsius) {
   }
 
   print('${celsius.toStringAsFixed(1)}°C: $description - $activity');
+//return
 }
